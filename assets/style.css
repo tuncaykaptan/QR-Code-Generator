@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+    background-color: #451c61;
+}
+
+.box{
+    height: 250px;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 8px 10px rgb(0, 0, 0);
+    background-color: #8435b9;
+    font-family: fantasy;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: auto;
+}
+
+.settings{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.settings > h1 {
+    color: white;
+    width: 500;
+    font-size: 24px;
+}
+
+#input{
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    padding:8px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: 0;
+}
+
+#generateButton{
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0;
+    background-color: violet;
+    color: black;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.settings >button:hover{
+    background-color: black;
+    color: violet;
+}
+
+.qrSection{
+    width: 0%;
+    opacity: 0;
+    transition: all 1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    overflow: auto;
+}
