@@ -58,7 +58,7 @@ body{
     transition: all 0.2s ease;
 }
 
-.settings >button:hover{
+#generateButton:hover{
     background-color: black;
     color: violet;
 }
